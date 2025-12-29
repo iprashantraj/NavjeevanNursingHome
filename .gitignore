@@ -1,0 +1,11 @@
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+
+# OS files
+Thumbs.db
+.DS_Store
