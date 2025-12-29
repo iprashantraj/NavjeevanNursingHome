@@ -866,14 +866,14 @@ ul {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-lg);
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
 }
 
 .contact-info {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-md);
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-lg);
 }
 
 .info-card {
@@ -1176,7 +1176,11 @@ ul {
     .logo h1 { font-size: 1.4rem !important; }
     .logo span { font-size: 0.7rem !important; }
 
-    .doctors-grid, .contact-grid, .contact-info, .hero-stats, .hero-cta, .doctor-header, .doctor-achievements, .form-row, .services-grid, .features-grid {
+    .doctors-grid, .contact-info, .hero-stats, .hero-cta, .doctor-header, .doctor-achievements, .form-row, .services-grid, .features-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .contact-grid {
         grid-template-columns: 1fr !important;
     }
 }
