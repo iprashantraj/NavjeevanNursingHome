@@ -231,7 +231,16 @@ ul {
    HERO SECTION
    ============================================== */
 .hero {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    background: 
+        linear-gradient(135deg, 
+            rgba(117, 31, 92, 0.55) 0%, 
+            rgba(8, 145, 178, 0.50) 50%,
+            rgba(6, 182, 212, 0.45) 100%),
+        url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     padding: var(--spacing-xl) 0;
     position: relative;
     overflow: hidden;
@@ -283,24 +292,25 @@ ul {
     font-family: var(--font-primary);
     font-size: 3.5rem;
     font-weight: 900;
-    background: linear-gradient(135deg, var(--primary-purple), var(--primary-blue));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--white);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
     margin-bottom: var(--spacing-sm);
     line-height: 1.2;
 }
 
 .hero-subtitle {
     font-size: 1.4rem;
-    color: var(--primary-blue);
+    color: var(--light-blue);
     font-weight: 700;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: var(--spacing-sm);
 }
 
 .hero-description {
     font-size: 1.1rem;
-    color: var(--dark-gray);
+    color: var(--white);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+
     max-width: 700px;
     margin-bottom: var(--spacing-lg);
     line-height: 1.8;
@@ -321,18 +331,17 @@ ul {
     font-family: var(--font-primary);
     font-size: 2.5rem;
     font-weight: 900;
-    background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--white);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
 }
 
 .stat-label {
     display: block;
     font-size: 0.9rem;
-    color: var(--gray);
+    color: var(--light-blue);
     font-weight: 600;
     margin-top: 4px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cta {
@@ -699,6 +708,14 @@ ul {
 .service-card p {
     color: var(--gray);
     line-height: 1.6;
+}
+
+/* ==============================================
+   SURGERY SERVICES SECTION
+   ============================================== */
+.surgery-services {
+    padding: var(--spacing-xl) 0;
+    background: linear-gradient(135deg, #faf5ff, #f3e8ff);
 }
 
 /* ==============================================

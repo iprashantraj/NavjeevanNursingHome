@@ -36,5 +36,29 @@ A professional, high-performance, and fully responsive website for **Navjeevan N
 - **Dr. Shyam Kishore:** MBBS, MD (Medicine), DNB, PMCH (Medicine). Consultant Physician & Board Certified Diabetologist.
 - **Dr. Pinki:** MBBS, DNB (General Surgery). Laparoscopic Surgeon & Obstetrician.
 
+## 🔐 Local Configuration (DO NOT PUSH TO GITHUB)
+
+### Akismet Spam Protection
+
+The website uses **Akismet Personal (Free non-commercial license)** for spam blocking on contact forms and comments.
+
+**Your Akismet API Key:**
+```
+fffabe49ed05
+```
+
+**How to Use:**
+1. This API key is for spam protection on the contact form
+2. Keep this key private and local only
+3. **DO NOT commit this section to GitHub**
+4. Use this key in your backend/form handling script
+
+**Akismet Plan Details:**
+- **License Type:** Akismet Personal (Free non-commercial license)
+- **Purpose:** Spam blocking for contact forms
+- **Activation:** Already activated ✅
+
+> ⚠️ **Important:** This API key should remain confidential. Never expose it in client-side code or public repositories.
+
 ---
 *Designed with ❤️ for Navjeevan Nursing Home, Purnia.*

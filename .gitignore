@@ -9,3 +9,6 @@
 # OS files
 Thumbs.db
 .DS_Store
+
+# Note: README.md contains sensitive API keys in "Local Configuration" section
+# Be careful when committing README changes - DO NOT push API keys to GitHub!
