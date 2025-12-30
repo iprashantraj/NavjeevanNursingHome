@@ -24,7 +24,7 @@
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 3rem;
-    --spacing-xl: 5rem;
+    --spacing-xl: 2rem;  /* Reduced from 5rem for less scrolling */
     
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
