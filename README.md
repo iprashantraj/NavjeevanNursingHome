@@ -44,7 +44,7 @@ The website uses **Akismet Personal (Free non-commercial license)** for spam blo
 
 **Your Akismet API Key:**
 ```
-fffabe49ed05
+___________
 ```
 
 **How to Use:**
