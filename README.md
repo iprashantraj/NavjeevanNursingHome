@@ -31,9 +31,4 @@ A professional, high-performance, and fully responsive website for **Navjeevan N
 2. **Open `index.html`** in any modern web browser.
 3. **No extra setup required:** The project uses standard web technologies and doesn't require any build tools or servers.
 
-## 👨‍⚕️ Core Medical Team
-
-- **Dr. Shyam Kishore:** MBBS, MD (Medicine), DNB, PMCH (Medicine). Consultant Physician & Board Certified Diabetologist.
-- **Dr. Pinki:** MBBS, DNB (General Surgery). Laparoscopic Surgeon & Obstetrician.
-
 *Designed with ❤️ for Navjeevan Nursing Home, Purnia.*
